@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { spring } from 'svelte/motion';
+	import { data } from './data.js'
+	console.log(data.meer)
 
 	let count = 0;
 

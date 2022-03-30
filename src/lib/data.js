@@ -1,0 +1,1 @@
+export const data={temp: "+1.2°", oekostrom: "42,6%", meer: "25cm"}
