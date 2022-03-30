@@ -11,11 +11,15 @@
 </svelte:head>
 
 <section>
-	<h2 class="text-9xl	text-zinc-500">
+	<h2 class="text-9xl	text-zinc-500 mb-20">
 		Climate in Germany
 	</h2>
 
-	<Counter />
+	<div class="grid gap-4 grid-cols-2">
+		<div class="w-1/2 bg-gray-400 h-12"><Counter /></div>
+		<div class="w-1/2 bg-gray-500 h-12"><Counter /></div>
+	</div>
+
 </section>
 
 <style>
