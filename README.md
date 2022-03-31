@@ -1,20 +1,33 @@
-# create-svelte
+# Svelte Demo x Correlaid
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
+## Prerequisites 
+The only thing we need to run this is node.
+
+- Windows:
+  - https://nodejs.org/en/download/
+- Mac:
+  - `brew install node`
+- Linux:
+  - `sudo apt-get install -y nodejs`
+
 ## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+If you plan to start from scratch in the future, here is how to get the same skeleton as in this repo:
 
 ```bash
 # create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
+npm init @svelte-add/kit@latest
+npx svelte-add@latest tailwindcss
 ```
+## Clone this repo
 
-> Note: the `@next` is temporary
+To be able to follow along, please clone the repo:
+
+```bash
+git clone https://github.com/svelte-add/svelte-add.git
+```
 
 ## Developing
 
@@ -36,5 +49,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

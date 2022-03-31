@@ -8,7 +8,7 @@
     labels: chartLabels,
     datasets: [
       {
-        label: "My First dataset",
+        label: "Temperature",
         fill: true,
         lineTension: 0.3,
         backgroundColor: "rgba(225, 204,230, .3)",
