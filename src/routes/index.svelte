@@ -1,15 +1,6 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
-<script lang="ts">
-	import Counter from '$lib/Counter.svelte';
+<script>
 	import Temperature from '$lib/Temperature.svelte';
 </script>
-
-<svelte:head>
-	<title>svelte is great</title>
-</svelte:head>
 
 <section>
 	<h2 class="text-9xl	text-zinc-500 mb-20">
