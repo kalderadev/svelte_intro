@@ -1,1 +1,6 @@
-export const data={temp: "+1.2°", oekostrom: "42,6%", meer: "25cm"}
+export const data = 
+{temp: "+1.2°",
+ ecopower: "42,6%",
+ searise: "25cm",
+ dry: "53%",
+ co2: "7.32"}
